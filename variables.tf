@@ -3,7 +3,7 @@ variable "projeto" {
   default = "Atividade-iac-modules-terraform"
 }
 
-variable "quantidade_instancias" {
+variable "qntd_instancias" {
   description = "qntd instancias"
   default = 2
 }
