@@ -2,7 +2,7 @@ module "ec2" {
   source = "git::https://github.com/Dangimenes/terraform-ec2-module.git"
 
   projeto = var.projeto
-  quantidade_instancias = var.quantidade_instancias
+  quantidade_instancias = var.qntd_instancias
   key_instance = var.key_instance
 }
 
